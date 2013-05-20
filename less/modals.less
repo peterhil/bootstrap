@@ -135,8 +135,8 @@
 
 }
 
-.modal.fluid {
-	position: fixed;
+.modal.fluid .modal-dialog {
+	// position: fixed;
 	top: 10%;
 	left: 10%;
 	bottom: 10%;
@@ -164,15 +164,10 @@
 		top: 0;
 		left: 0;
 		right: 0;
-		background: @white;
+		background: #fff;
 		border-top-left-radius: 6px;
 		border-top-right-radius: 6px;
 		.box-shadow(0 3px 7px rgba(0,0,0,0.3));
-	}
-	.modal-body {
-		position: relative;
-		overflow: visible;
-		background-color: @white;
 	}
 	.modal-footer {
 		position: relative;
@@ -187,7 +182,7 @@
 		height: auto;
 		max-height: 70%;
 		padding: 15px;
-		background-color: @white;
+		background-color: #fff;
 		border-radius: 0;
 		.box-shadow(0 3px 7px rgba(0,0,0,0.3));
 
